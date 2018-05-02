@@ -1,4 +1,4 @@
-update=Do 23 Nov 2017 11:45:28 CET
+update=Mi 24 Jan 2018 14:36:25 CET
 version=1
 last_client=kicad
 [general]
@@ -31,9 +31,3 @@ LibName1=footprint
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
-LibName1=conn
-LibName2=power
-LibName3=switches
-LibName4=blackwing
-LibName5=device
