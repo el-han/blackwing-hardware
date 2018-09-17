@@ -59,7 +59,7 @@ F 3 "" H 1300 4050 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x04 J1
+L Connector_Generic:Conn_01x04 J1
 U 1 1 59EDFF5F
 P 5050 2350
 F 0 "J1" H 5050 2550 50  0000 C CNN
@@ -70,29 +70,27 @@ F 3 "" H 5050 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4850 2450 4200 2450
-Wire Wire Line
-	4850 2550 4300 2550
+	4850 2450 3550 2450
 $Comp
 L power:GND #PWR05
 U 1 1 59EE2402
-P 4850 2350
-F 0 "#PWR05" H 4850 2350 30  0001 C CNN
-F 1 "GND" H 4850 2280 30  0001 C CNN
-F 2 "" H 4850 2350 60  0000 C CNN
-F 3 "" H 4850 2350 60  0000 C CNN
-	1    4850 2350
-	0    1    -1   0   
+P 4750 1850
+F 0 "#PWR05" H 4750 1850 30  0001 C CNN
+F 1 "GND" H 4750 1780 30  0001 C CNN
+F 2 "" H 4750 1850 60  0000 C CNN
+F 3 "" H 4750 1850 60  0000 C CNN
+	1    4750 1850
+	1    0    0    1   
 $EndComp
 $Comp
 L power:VCC #PWR06
 U 1 1 59EE2458
-P 4850 2250
-F 0 "#PWR06" H 4850 2350 30  0001 C CNN
-F 1 "VCC" H 4850 2350 30  0000 C CNN
-F 2 "" H 4850 2250 60  0000 C CNN
-F 3 "" H 4850 2250 60  0000 C CNN
-	1    4850 2250
+P 4850 1850
+F 0 "#PWR06" H 4850 1950 30  0001 C CNN
+F 1 "VCC" H 4850 1950 30  0000 C CNN
+F 2 "" H 4850 1850 60  0000 C CNN
+F 3 "" H 4850 1850 60  0000 C CNN
+	1    4850 1850
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -123,7 +121,7 @@ U 1 1 59FC7829
 P 2500 6250
 F 0 "SW00" H 2650 6360 50  0000 C CNN
 F 1 "SW_Push" H 2500 6170 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 2500 6250 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 2500 6250 60  0001 C CNN
 F 3 "" H 2500 6250 60  0000 C CNN
 	1    2500 6250
 	1    0    0    -1  
@@ -134,7 +132,7 @@ U 1 1 59FC7BF2
 P 3400 6250
 F 0 "SW01" H 3550 6360 50  0000 C CNN
 F 1 "SW_Push" H 3400 6170 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 3400 6250 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 3400 6250 60  0001 C CNN
 F 3 "" H 3400 6250 60  0000 C CNN
 	1    3400 6250
 	1    0    0    -1  
@@ -145,7 +143,7 @@ U 1 1 59FC7CB4
 P 4300 6250
 F 0 "SW02" H 4450 6360 50  0000 C CNN
 F 1 "SW_Push" H 4300 6170 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 4300 6250 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 4300 6250 60  0001 C CNN
 F 3 "" H 4300 6250 60  0000 C CNN
 	1    4300 6250
 	1    0    0    -1  
@@ -156,7 +154,7 @@ U 1 1 59FC7CBA
 P 5200 6250
 F 0 "SW03" H 5350 6360 50  0000 C CNN
 F 1 "SW_Push" H 5200 6170 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 5200 6250 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 5200 6250 60  0001 C CNN
 F 3 "" H 5200 6250 60  0000 C CNN
 	1    5200 6250
 	1    0    0    -1  
@@ -167,7 +165,7 @@ U 1 1 59FC7D9A
 P 6100 6250
 F 0 "SW04" H 6250 6360 50  0000 C CNN
 F 1 "SW_Push" H 6100 6170 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 6100 6250 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 6100 6250 60  0001 C CNN
 F 3 "" H 6100 6250 60  0000 C CNN
 	1    6100 6250
 	1    0    0    -1  
@@ -178,7 +176,7 @@ U 1 1 59FC7DA0
 P 7000 6250
 F 0 "SW05" H 7150 6360 50  0000 C CNN
 F 1 "SW_Push" H 7000 6170 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 7000 6250 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 7000 6250 60  0001 C CNN
 F 3 "" H 7000 6250 60  0000 C CNN
 	1    7000 6250
 	1    0    0    -1  
@@ -189,7 +187,7 @@ U 1 1 59FC7E98
 P 2500 6650
 F 0 "SW10" H 2650 6760 50  0000 C CNN
 F 1 "SW_Push" H 2500 6570 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 2500 6650 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 2500 6650 60  0001 C CNN
 F 3 "" H 2500 6650 60  0000 C CNN
 	1    2500 6650
 	1    0    0    -1  
@@ -200,7 +198,7 @@ U 1 1 59FC7E9E
 P 3400 6650
 F 0 "SW11" H 3550 6760 50  0000 C CNN
 F 1 "SW_Push" H 3400 6570 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 3400 6650 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 3400 6650 60  0001 C CNN
 F 3 "" H 3400 6650 60  0000 C CNN
 	1    3400 6650
 	1    0    0    -1  
@@ -211,7 +209,7 @@ U 1 1 59FC7EA4
 P 4300 6650
 F 0 "SW12" H 4450 6760 50  0000 C CNN
 F 1 "SW_Push" H 4300 6570 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 4300 6650 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 4300 6650 60  0001 C CNN
 F 3 "" H 4300 6650 60  0000 C CNN
 	1    4300 6650
 	1    0    0    -1  
@@ -222,7 +220,7 @@ U 1 1 59FC7EAA
 P 5200 6650
 F 0 "SW13" H 5350 6760 50  0000 C CNN
 F 1 "SW_Push" H 5200 6570 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 5200 6650 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 5200 6650 60  0001 C CNN
 F 3 "" H 5200 6650 60  0000 C CNN
 	1    5200 6650
 	1    0    0    -1  
@@ -233,7 +231,7 @@ U 1 1 59FC7EB0
 P 6100 6650
 F 0 "SW14" H 6250 6760 50  0000 C CNN
 F 1 "SW_Push" H 6100 6570 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 6100 6650 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 6100 6650 60  0001 C CNN
 F 3 "" H 6100 6650 60  0000 C CNN
 	1    6100 6650
 	1    0    0    -1  
@@ -244,7 +242,7 @@ U 1 1 59FC7EB6
 P 7000 6650
 F 0 "SW15" H 7150 6760 50  0000 C CNN
 F 1 "SW_Push" H 7000 6570 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 7000 6650 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 7000 6650 60  0001 C CNN
 F 3 "" H 7000 6650 60  0000 C CNN
 	1    7000 6650
 	1    0    0    -1  
@@ -255,7 +253,7 @@ U 1 1 59FC8110
 P 2500 7050
 F 0 "SW20" H 2650 7160 50  0000 C CNN
 F 1 "SW_Push" H 2500 6970 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 2500 7050 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 2500 7050 60  0001 C CNN
 F 3 "" H 2500 7050 60  0000 C CNN
 	1    2500 7050
 	1    0    0    -1  
@@ -266,7 +264,7 @@ U 1 1 59FC8116
 P 3400 7050
 F 0 "SW21" H 3550 7160 50  0000 C CNN
 F 1 "SW_Push" H 3400 6970 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 3400 7050 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 3400 7050 60  0001 C CNN
 F 3 "" H 3400 7050 60  0000 C CNN
 	1    3400 7050
 	1    0    0    -1  
@@ -277,7 +275,7 @@ U 1 1 59FC811C
 P 4300 7050
 F 0 "SW22" H 4450 7160 50  0000 C CNN
 F 1 "SW_Push" H 4300 6970 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 4300 7050 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 4300 7050 60  0001 C CNN
 F 3 "" H 4300 7050 60  0000 C CNN
 	1    4300 7050
 	1    0    0    -1  
@@ -288,7 +286,7 @@ U 1 1 59FC8122
 P 5200 7050
 F 0 "SW23" H 5350 7160 50  0000 C CNN
 F 1 "SW_Push" H 5200 6970 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 5200 7050 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 5200 7050 60  0001 C CNN
 F 3 "" H 5200 7050 60  0000 C CNN
 	1    5200 7050
 	1    0    0    -1  
@@ -299,7 +297,7 @@ U 1 1 59FC8128
 P 6100 7050
 F 0 "SW24" H 6250 7160 50  0000 C CNN
 F 1 "SW_Push" H 6100 6970 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 6100 7050 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 6100 7050 60  0001 C CNN
 F 3 "" H 6100 7050 60  0000 C CNN
 	1    6100 7050
 	1    0    0    -1  
@@ -310,7 +308,7 @@ U 1 1 59FC812E
 P 7000 7050
 F 0 "SW25" H 7150 7160 50  0000 C CNN
 F 1 "SW_Push" H 7000 6970 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 7000 7050 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 7000 7050 60  0001 C CNN
 F 3 "" H 7000 7050 60  0000 C CNN
 	1    7000 7050
 	1    0    0    -1  
@@ -321,7 +319,7 @@ U 1 1 59FC8134
 P 2500 7450
 F 0 "SW30" H 2650 7560 50  0000 C CNN
 F 1 "SW_Push" H 2500 7370 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 2500 7450 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 2500 7450 60  0001 C CNN
 F 3 "" H 2500 7450 60  0000 C CNN
 	1    2500 7450
 	1    0    0    -1  
@@ -332,7 +330,7 @@ U 1 1 59FC813A
 P 3400 7450
 F 0 "SW31" H 3550 7560 50  0000 C CNN
 F 1 "SW_Push" H 3400 7370 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 3400 7450 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 3400 7450 60  0001 C CNN
 F 3 "" H 3400 7450 60  0000 C CNN
 	1    3400 7450
 	1    0    0    -1  
@@ -343,7 +341,7 @@ U 1 1 59FC8140
 P 4300 7450
 F 0 "SW32" H 4450 7560 50  0000 C CNN
 F 1 "SW_Push" H 4300 7370 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 4300 7450 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 4300 7450 60  0001 C CNN
 F 3 "" H 4300 7450 60  0000 C CNN
 	1    4300 7450
 	1    0    0    -1  
@@ -354,7 +352,7 @@ U 1 1 59FC8146
 P 5200 7450
 F 0 "SW33" H 5350 7560 50  0000 C CNN
 F 1 "SW_Push" H 5200 7370 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 5200 7450 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 5200 7450 60  0001 C CNN
 F 3 "" H 5200 7450 60  0000 C CNN
 	1    5200 7450
 	1    0    0    -1  
@@ -365,7 +363,7 @@ U 1 1 59FC814C
 P 6100 7450
 F 0 "SW34" H 6250 7560 50  0000 C CNN
 F 1 "SW_Push" H 6100 7370 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 6100 7450 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 6100 7450 60  0001 C CNN
 F 3 "" H 6100 7450 60  0000 C CNN
 	1    6100 7450
 	1    0    0    -1  
@@ -376,7 +374,7 @@ U 1 1 59FC8152
 P 7000 7450
 F 0 "SW35" H 7150 7560 50  0000 C CNN
 F 1 "SW_Push" H 7000 7370 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 7000 7450 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 7000 7450 60  0001 C CNN
 F 3 "" H 7000 7450 60  0000 C CNN
 	1    7000 7450
 	1    0    0    -1  
@@ -387,7 +385,7 @@ U 1 1 59FC8364
 P 2500 7850
 F 0 "SW40" H 2650 7960 50  0000 C CNN
 F 1 "SW_Push" H 2500 7770 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 2500 7850 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 2500 7850 60  0001 C CNN
 F 3 "" H 2500 7850 60  0000 C CNN
 	1    2500 7850
 	1    0    0    -1  
@@ -398,7 +396,7 @@ U 1 1 59FC836A
 P 3400 7850
 F 0 "SW41" H 3550 7960 50  0000 C CNN
 F 1 "SW_Push" H 3400 7770 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 3400 7850 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 3400 7850 60  0001 C CNN
 F 3 "" H 3400 7850 60  0000 C CNN
 	1    3400 7850
 	1    0    0    -1  
@@ -409,7 +407,7 @@ U 1 1 59FC8370
 P 4300 7850
 F 0 "SW42" H 4450 7960 50  0000 C CNN
 F 1 "SW_Push" H 4300 7770 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 4300 7850 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 4300 7850 60  0001 C CNN
 F 3 "" H 4300 7850 60  0000 C CNN
 	1    4300 7850
 	1    0    0    -1  
@@ -420,7 +418,7 @@ U 1 1 59FC8376
 P 5200 7850
 F 0 "SW43" H 5350 7960 50  0000 C CNN
 F 1 "SW_Push" H 5200 7770 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 5200 7850 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 5200 7850 60  0001 C CNN
 F 3 "" H 5200 7850 60  0000 C CNN
 	1    5200 7850
 	1    0    0    -1  
@@ -431,7 +429,7 @@ U 1 1 59FC837C
 P 6100 7850
 F 0 "SW44" H 6250 7960 50  0000 C CNN
 F 1 "SW_Push" H 6100 7770 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 6100 7850 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 6100 7850 60  0001 C CNN
 F 3 "" H 6100 7850 60  0000 C CNN
 	1    6100 7850
 	1    0    0    -1  
@@ -442,7 +440,7 @@ U 1 1 59FC8382
 P 7000 7850
 F 0 "SW45" H 7150 7960 50  0000 C CNN
 F 1 "SW_Push" H 7000 7770 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 7000 7850 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 7000 7850 60  0001 C CNN
 F 3 "" H 7000 7850 60  0000 C CNN
 	1    7000 7850
 	1    0    0    -1  
@@ -453,7 +451,7 @@ U 1 1 59FC84E1
 P 2500 8250
 F 0 "SW50" H 2650 8360 50  0000 C CNN
 F 1 "SW_Push" H 2500 8170 50  0000 C CNN
-F 2 "blackwing:MX_FLIP_5Pin" H 2500 8250 60  0001 C CNN
+F 2 "blackwing:MX_FLIP" H 2500 8250 60  0001 C CNN
 F 3 "" H 2500 8250 60  0000 C CNN
 	1    2500 8250
 	1    0    0    -1  
@@ -883,146 +881,74 @@ Text GLabel 5900 6650 0    60   Input ~ 0
 S14
 Text GLabel 2300 8250 0    60   Input ~ 0
 S50
-Text GLabel 2950 1650 2    60   Input ~ 0
-S00
-Text GLabel 2600 2500 3    60   Input ~ 0
-S10
-Text GLabel 2000 2500 3    60   Input ~ 0
-S20
-Text GLabel 1300 1450 0    60   Input ~ 0
-S30
-Text GLabel 1300 1150 0    60   Input ~ 0
-S40
-Text GLabel 1300 1050 0    60   Input ~ 0
-S50
-Text GLabel 2950 1550 2    60   Input ~ 0
-S01
-Text GLabel 2700 2500 3    60   Input ~ 0
-S11
-Text GLabel 2100 2500 3    60   Input ~ 0
-S21
-Text GLabel 1300 1350 0    60   Input ~ 0
-S31
-Text GLabel 1300 1250 0    60   Input ~ 0
-S41
-Text GLabel 2950 1250 2    60   Input ~ 0
-S02
-Text GLabel 2950 2050 2    60   Input ~ 0
-S12
-Text GLabel 2200 2500 3    60   Input ~ 0
-S22
-Text GLabel 1600 2500 3    60   Input ~ 0
-S32
-Text GLabel 1300 1550 0    60   Input ~ 0
-S42
-Text GLabel 2950 1150 2    60   Input ~ 0
-S03
-Text GLabel 2950 1950 2    60   Input ~ 0
-S13
-Text GLabel 2300 2500 3    60   Input ~ 0
-S23
-Text GLabel 1700 2500 3    60   Input ~ 0
-S33
-Text GLabel 2950 1050 2    60   Input ~ 0
-S04
-Text GLabel 2950 1850 2    60   Input ~ 0
-S14
-Text GLabel 2400 2500 3    60   Input ~ 0
-S24
-Text GLabel 1800 2500 3    60   Input ~ 0
-S34
-Text GLabel 1300 1750 0    60   Input ~ 0
-S44
-Text GLabel 2950 950  2    60   Input ~ 0
-S05
-Text GLabel 2950 1750 2    60   Input ~ 0
-S15
-Text GLabel 1300 1850 0    60   Input ~ 0
-S45
-Text GLabel 1900 2500 3    60   Input ~ 0
-S35
-Text GLabel 1300 3750 0    60   Input ~ 0
-S15
-Text GLabel 2950 3850 2    60   Input ~ 0
-S45
 Text GLabel 1800 4500 3    60   Input ~ 0
-S25
-Text GLabel 2400 4500 3    60   Input ~ 0
-S35
-Text GLabel 1300 3050 0    60   Input ~ 0
-S04
-Text GLabel 1300 3850 0    60   Input ~ 0
-S14
-Text GLabel 1900 4500 3    60   Input ~ 0
-S24
-Text GLabel 2500 4500 3    60   Input ~ 0
-S34
-Text GLabel 2950 3750 2    60   Input ~ 0
-S44
+S15
 Text GLabel 2950 2950 2    60   Input ~ 0
+S45
+Text GLabel 2400 4500 3    60   Input ~ 0
+S25
+Text GLabel 2950 3850 2    60   Input ~ 0
+S35
+Text GLabel 1300 3450 0    60   Input ~ 0
+S04
+Text GLabel 1700 4500 3    60   Input ~ 0
+S14
+Text GLabel 2300 4500 3    60   Input ~ 0
+S24
+Text GLabel 2950 3950 2    60   Input ~ 0
+S34
+Text GLabel 2950 3050 2    60   Input ~ 0
+S44
+Text GLabel 1300 3550 0    60   Input ~ 0
 S05
-Text GLabel 2950 3250 2    60   Input ~ 0
-S41
-Text GLabel 1300 3250 0    60   Input ~ 0
-S02
-Text GLabel 1300 3350 0    60   Input ~ 0
-S12
-Text GLabel 2100 4500 3    60   Input ~ 0
-S22
-Text GLabel 2700 4500 3    60   Input ~ 0
-S32
 Text GLabel 2950 3550 2    60   Input ~ 0
-S42
+S41
 Text GLabel 1300 3150 0    60   Input ~ 0
-S03
+S02
+Text GLabel 1300 3750 0    60   Input ~ 0
+S12
 Text GLabel 2000 4500 3    60   Input ~ 0
-S23
+S22
 Text GLabel 2600 4500 3    60   Input ~ 0
+S32
+Text GLabel 2950 3250 2    60   Input ~ 0
+S42
+Text GLabel 1300 3250 0    60   Input ~ 0
+S03
+Text GLabel 2100 4500 3    60   Input ~ 0
+S23
+Text GLabel 2700 4500 3    60   Input ~ 0
 S33
-Text GLabel 2950 3650 2    60   Input ~ 0
+Text GLabel 2950 3150 2    60   Input ~ 0
 S43
 Text GLabel 2950 4050 2    60   Input ~ 0
 S31
-Text GLabel 1300 3650 0    60   Input ~ 0
+Text GLabel 1300 3050 0    60   Input ~ 0
 S00
-Text GLabel 1700 4500 3    60   Input ~ 0
+Text GLabel 1300 3650 0    60   Input ~ 0
 S10
-Text GLabel 2300 4500 3    60   Input ~ 0
+Text GLabel 1900 4500 3    60   Input ~ 0
 S20
-Text GLabel 2950 3950 2    60   Input ~ 0
+Text GLabel 2500 4500 3    60   Input ~ 0
 S30
-Text GLabel 2950 3150 2    60   Input ~ 0
+Text GLabel 2950 3650 2    60   Input ~ 0
 S40
-Text GLabel 2950 3050 2    60   Input ~ 0
+Text GLabel 2950 3750 2    60   Input ~ 0
 S50
-Text GLabel 1300 3550 0    60   Input ~ 0
+Text GLabel 1300 3350 0    60   Input ~ 0
 S01
 Text GLabel 1600 4500 3    60   Input ~ 0
 S11
 Text GLabel 2200 4500 3    60   Input ~ 0
 S21
 Wire Wire Line
-	2950 1350 4300 1350
+	2950 1350 3650 1350
 Wire Wire Line
-	4300 1350 4300 2550
-Wire Wire Line
-	4300 3350 2950 3350
-Connection ~ 4300 2550
-Wire Wire Line
-	4200 3450 2950 3450
-Wire Wire Line
-	4200 1450 4200 2450
-Wire Wire Line
-	4200 1450 2950 1450
-Connection ~ 4200 2450
-Text GLabel 1300 3450 0    60   Input ~ 0
+	3650 3350 2950 3350
+Text GLabel 1300 3850 0    60   Input ~ 0
 S13
-Text GLabel 2500 2500 3    60   Input ~ 0
-S25
-Text GLabel 1300 1650 0    60   Input ~ 0
-S43
 $Comp
-L device:Battery BT1
+L Device:Battery BT1
 U 1 1 5A01D445
 P 6950 3400
 F 0 "BT1" H 7050 3500 50  0000 L CNN
@@ -1055,7 +981,7 @@ F 3 "" H 6950 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Battery BT2
+L Device:Battery BT2
 U 1 1 5A01EB84
 P 7500 3400
 F 0 "BT2" H 7600 3500 50  0000 L CNN
@@ -1088,7 +1014,115 @@ F 3 "" H 7500 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 2550 4300 3350
+	3550 2450 3550 3450
 Wire Wire Line
-	4200 2450 4200 3450
+	3550 3450 2950 3450
+Wire Wire Line
+	4850 2550 3650 2550
+Wire Wire Line
+	3650 2550 3650 3350
+Wire Wire Line
+	4750 1850 4750 1950
+Wire Wire Line
+	4750 2350 4850 2350
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5B6ABE7B
+P 4850 1950
+F 0 "#FLG0101" H 4850 2025 50  0001 C CNN
+F 1 "PWR_FLAG" V 4850 2078 50  0000 L CNN
+F 2 "" H 4850 1950 50  0001 C CNN
+F 3 "~" H 4850 1950 50  0001 C CNN
+	1    4850 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5B6ABF2F
+P 4750 1950
+F 0 "#FLG0102" H 4750 2025 50  0001 C CNN
+F 1 "PWR_FLAG" V 4750 2078 50  0000 L CNN
+F 2 "" H 4750 1950 50  0001 C CNN
+F 3 "~" H 4750 1950 50  0001 C CNN
+	1    4750 1950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4750 1950
+Wire Wire Line
+	4750 1950 4750 2350
+Connection ~ 4850 1950
+Wire Wire Line
+	4850 1950 4850 2250
+Wire Wire Line
+	4850 1850 4850 1950
+Wire Wire Line
+	3550 1450 2950 1450
+Connection ~ 3650 2550
+Wire Wire Line
+	3650 1350 3650 2550
+Connection ~ 3550 2450
+Wire Wire Line
+	3550 1450 3550 2450
+Text GLabel 2950 1950 2    60   Input ~ 0
+S04
+Text GLabel 2950 1550 2    60   Input ~ 0
+S05
+Text GLabel 2950 1150 2    60   Input ~ 0
+S02
+Text GLabel 2950 1750 2    60   Input ~ 0
+S12
+Text GLabel 2950 1250 2    60   Input ~ 0
+S03
+Text GLabel 2950 1050 2    60   Input ~ 0
+S00
+Text GLabel 2950 1650 2    60   Input ~ 0
+S10
+Text GLabel 2950 2050 2    60   Input ~ 0
+S01
+Text GLabel 2950 1850 2    60   Input ~ 0
+S13
+Text GLabel 2500 2500 3    60   Input ~ 0
+S15
+Text GLabel 1900 2500 3    60   Input ~ 0
+S25
+Text GLabel 2600 2500 3    60   Input ~ 0
+S14
+Text GLabel 2000 2500 3    60   Input ~ 0
+S24
+Text GLabel 2300 2500 3    60   Input ~ 0
+S22
+Text GLabel 1700 2500 3    60   Input ~ 0
+S32
+Text GLabel 2200 2500 3    60   Input ~ 0
+S23
+Text GLabel 1600 2500 3    60   Input ~ 0
+S33
+Text GLabel 2400 2500 3    60   Input ~ 0
+S20
+Text GLabel 1800 2500 3    60   Input ~ 0
+S30
+Text GLabel 2700 2500 3    60   Input ~ 0
+S11
+Text GLabel 2100 2500 3    60   Input ~ 0
+S21
+Text GLabel 2950 950  2    60   Input ~ 0
+S45
+Text GLabel 1300 1850 0    60   Input ~ 0
+S35
+Text GLabel 1300 1450 0    60   Input ~ 0
+S34
+Text GLabel 1300 1050 0    60   Input ~ 0
+S44
+Text GLabel 1300 1550 0    60   Input ~ 0
+S41
+Text GLabel 1300 1250 0    60   Input ~ 0
+S42
+Text GLabel 1300 1150 0    60   Input ~ 0
+S43
+Text GLabel 1300 1350 0    60   Input ~ 0
+S31
+Text GLabel 1300 1650 0    60   Input ~ 0
+S40
+Text GLabel 1300 1750 0    60   Input ~ 0
+S50
 $EndSCHEMATC
