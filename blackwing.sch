@@ -881,35 +881,35 @@ Text GLabel 5900 6650 0    60   Input ~ 0
 S14
 Text GLabel 2300 8250 0    60   Input ~ 0
 S50
-Text GLabel 1800 4500 3    60   Input ~ 0
+Text GLabel 1300 3650 0    60   Input ~ 0
 S15
 Text GLabel 2950 2950 2    60   Input ~ 0
 S45
-Text GLabel 2400 4500 3    60   Input ~ 0
+Text GLabel 1900 4500 3    60   Input ~ 0
 S25
-Text GLabel 2950 3850 2    60   Input ~ 0
+Text GLabel 2500 4500 3    60   Input ~ 0
 S35
-Text GLabel 1300 3450 0    60   Input ~ 0
+Text GLabel 1300 3150 0    60   Input ~ 0
 S04
-Text GLabel 1700 4500 3    60   Input ~ 0
+Text GLabel 1300 3750 0    60   Input ~ 0
 S14
-Text GLabel 2300 4500 3    60   Input ~ 0
+Text GLabel 2000 4500 3    60   Input ~ 0
 S24
-Text GLabel 2950 3950 2    60   Input ~ 0
+Text GLabel 2600 4500 3    60   Input ~ 0
 S34
 Text GLabel 2950 3050 2    60   Input ~ 0
 S44
-Text GLabel 1300 3550 0    60   Input ~ 0
+Text GLabel 1300 3050 0    60   Input ~ 0
 S05
 Text GLabel 2950 3550 2    60   Input ~ 0
 S41
-Text GLabel 1300 3150 0    60   Input ~ 0
+Text GLabel 1300 3350 0    60   Input ~ 0
 S02
-Text GLabel 1300 3750 0    60   Input ~ 0
+Text GLabel 1600 4500 3    60   Input ~ 0
 S12
-Text GLabel 2000 4500 3    60   Input ~ 0
+Text GLabel 2200 4500 3    60   Input ~ 0
 S22
-Text GLabel 2600 4500 3    60   Input ~ 0
+Text GLabel 2950 4050 2    60   Input ~ 0
 S32
 Text GLabel 2950 3250 2    60   Input ~ 0
 S42
@@ -921,25 +921,25 @@ Text GLabel 2700 4500 3    60   Input ~ 0
 S33
 Text GLabel 2950 3150 2    60   Input ~ 0
 S43
-Text GLabel 2950 4050 2    60   Input ~ 0
+Text GLabel 2950 3950 2    60   Input ~ 0
 S31
-Text GLabel 1300 3050 0    60   Input ~ 0
+Text GLabel 1300 3550 0    60   Input ~ 0
 S00
-Text GLabel 1300 3650 0    60   Input ~ 0
+Text GLabel 1800 4500 3    60   Input ~ 0
 S10
-Text GLabel 1900 4500 3    60   Input ~ 0
+Text GLabel 2400 4500 3    60   Input ~ 0
 S20
-Text GLabel 2500 4500 3    60   Input ~ 0
+Text GLabel 2950 3850 2    60   Input ~ 0
 S30
 Text GLabel 2950 3650 2    60   Input ~ 0
 S40
 Text GLabel 2950 3750 2    60   Input ~ 0
 S50
-Text GLabel 1300 3350 0    60   Input ~ 0
+Text GLabel 1300 3450 0    60   Input ~ 0
 S01
-Text GLabel 1600 4500 3    60   Input ~ 0
+Text GLabel 1700 4500 3    60   Input ~ 0
 S11
-Text GLabel 2200 4500 3    60   Input ~ 0
+Text GLabel 2300 4500 3    60   Input ~ 0
 S21
 Wire Wire Line
 	2950 1350 3650 1350
@@ -1063,66 +1063,66 @@ Wire Wire Line
 Connection ~ 3550 2450
 Wire Wire Line
 	3550 1450 3550 2450
-Text GLabel 2950 1950 2    60   Input ~ 0
-S04
-Text GLabel 2950 1550 2    60   Input ~ 0
-S05
-Text GLabel 2950 1150 2    60   Input ~ 0
-S02
-Text GLabel 2950 1750 2    60   Input ~ 0
-S12
-Text GLabel 2950 1250 2    60   Input ~ 0
-S03
-Text GLabel 2950 1050 2    60   Input ~ 0
-S00
-Text GLabel 2950 1650 2    60   Input ~ 0
-S10
-Text GLabel 2950 2050 2    60   Input ~ 0
-S01
-Text GLabel 2950 1850 2    60   Input ~ 0
-S13
-Text GLabel 2500 2500 3    60   Input ~ 0
-S15
-Text GLabel 1900 2500 3    60   Input ~ 0
+Text GLabel 2400 2500 3    60   Input ~ 0
 S25
-Text GLabel 2600 2500 3    60   Input ~ 0
-S14
-Text GLabel 2000 2500 3    60   Input ~ 0
-S24
+Text GLabel 1800 2500 3    60   Input ~ 0
+S35
 Text GLabel 2300 2500 3    60   Input ~ 0
-S22
+S24
 Text GLabel 1700 2500 3    60   Input ~ 0
-S32
+S34
+Text GLabel 2700 2500 3    60   Input ~ 0
+S12
+Text GLabel 2100 2500 3    60   Input ~ 0
+S22
 Text GLabel 2200 2500 3    60   Input ~ 0
 S23
 Text GLabel 1600 2500 3    60   Input ~ 0
 S33
-Text GLabel 2400 2500 3    60   Input ~ 0
+Text GLabel 2500 2500 3    60   Input ~ 0
+S10
+Text GLabel 1900 2500 3    60   Input ~ 0
 S20
-Text GLabel 1800 2500 3    60   Input ~ 0
-S30
-Text GLabel 2700 2500 3    60   Input ~ 0
+Text GLabel 2600 2500 3    60   Input ~ 0
 S11
-Text GLabel 2100 2500 3    60   Input ~ 0
+Text GLabel 2000 2500 3    60   Input ~ 0
 S21
-Text GLabel 2950 950  2    60   Input ~ 0
-S45
-Text GLabel 1300 1850 0    60   Input ~ 0
-S35
-Text GLabel 1300 1450 0    60   Input ~ 0
-S34
+Text GLabel 2950 1650 2    60   Input ~ 0
+S15
+Text GLabel 2950 1150 2    60   Input ~ 0
+S04
+Text GLabel 2950 1750 2    60   Input ~ 0
+S14
+Text GLabel 2950 1050 2    60   Input ~ 0
+S05
+Text GLabel 2950 2050 2    60   Input ~ 0
+S02
+Text GLabel 2950 1250 2    60   Input ~ 0
+S03
+Text GLabel 2950 1550 2    60   Input ~ 0
+S00
+Text GLabel 2950 1950 2    60   Input ~ 0
+S01
+Text GLabel 2950 1850 2    60   Input ~ 0
+S13
 Text GLabel 1300 1050 0    60   Input ~ 0
 S44
-Text GLabel 1300 1550 0    60   Input ~ 0
-S41
 Text GLabel 1300 1250 0    60   Input ~ 0
 S42
 Text GLabel 1300 1150 0    60   Input ~ 0
 S43
-Text GLabel 1300 1350 0    60   Input ~ 0
-S31
+Text GLabel 2950 950  2    60   Input ~ 0
+S45
+Text GLabel 1300 1550 0    60   Input ~ 0
+S41
+Text GLabel 1300 1850 0    60   Input ~ 0
+S30
 Text GLabel 1300 1650 0    60   Input ~ 0
 S40
 Text GLabel 1300 1750 0    60   Input ~ 0
 S50
+Text GLabel 1300 1350 0    60   Input ~ 0
+S32
+Text GLabel 1300 1450 0    60   Input ~ 0
+S31
 $EndSCHEMATC
