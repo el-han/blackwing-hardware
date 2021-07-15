@@ -1,0 +1,18 @@
+(footprint "CUTOUT_CHERRY_MX" (version 20210228) (generator pcbnew) (layer "F.Cu")
+  (tedit 60633E80)
+  (fp_text reference "SW10" (at 0 3.302) (layer "F.SilkS") hide
+    (effects (font (size 1.524 1.778) (thickness 0.254)))
+    (tstamp 7e6578af-6822-453b-8d69-d3fe025af731)
+  )
+  (fp_text value "SWITCH_PUSH" (at 0 3.302) (layer "B.SilkS") hide
+    (effects (font (size 1.524 1.778) (thickness 0.254)) (justify mirror))
+    (tstamp 77f36920-29f2-4d45-aa48-0156b243b8ca)
+  )
+  (fp_rect (start 7 7) (end -7 -7) (layer "Edge.Cuts") (width 0.12) (fill none) (tstamp 0f35240e-5daf-4694-afcd-1370a9ebbd01))
+  (fp_rect (start -9.5 -9.5) (end 9.5 9.5) (layer "F.Fab") (width 0.12) (fill none) (tstamp fbca931c-5f9a-4668-9463-e018a4487025))
+  (model "${KIPRJMOD}/r4_100.STEP"
+    (offset (xyz -9 -9 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+)
