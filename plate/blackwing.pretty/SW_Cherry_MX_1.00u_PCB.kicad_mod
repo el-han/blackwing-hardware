@@ -1,5 +1,5 @@
-(footprint "SW_Cherry_MX_1.00u_PCB" (version 20210424) (generator pcbnew) (layer "F.Cu")
-  (tedit 60A1074B)
+(footprint "SW_Cherry_MX_1.00u_PCB" (version 20210606) (generator pcbnew) (layer "F.Cu")
+  (tedit 60F280DD)
   (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
   (tags "Cherry MX keyswitch 1.00u PCB")
   (attr through_hole)
@@ -39,9 +39,9 @@
   (pad "" np_thru_hole circle locked (at 2.54 5.08) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask) (tstamp f280ed71-37de-4688-9f25-c4b667e52ec5))
   (pad "1" thru_hole circle locked (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask) (tstamp c0627250-6c8a-42fa-9834-e55303f8b3b4))
   (pad "2" thru_hole circle locked (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask) (tstamp cec81361-4a5d-4796-a9e5-b94545f64a48))
-  (model "${KICAD6_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
-    (offset (xyz 0 0 0))
+  (model "/home/helling/repos/blackwing-hardware/plate/r3_100.STEP"
+    (offset (xyz -11.54 -14.08 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 0))
   )
 )

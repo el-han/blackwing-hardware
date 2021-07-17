@@ -1,4 +1,4 @@
-19602821857352951
+19657923155921062
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -47859,6 +47859,13 @@ dcdc traco 5w smd
 6
 6
 Converter_DCDC
+Converter_DCDC_TRACO_TDN_5-xxxxWI_THT
+Traco TDN 5WI Series, 5W (https://www.tracopower.com/sites/default/files/products/datasheets/tdn5wi_datasheet.pdf#page=4)
+dcdc traco 5w
+0
+6
+6
+Converter_DCDC
 Converter_DCDC_TRACO_TEN10-xxxx_Dual_THT
 DCDC-Converter, TRACO, TEN10-xxxx, single output, https://assets.tracopower.com/20171102100522/TEN10/documents/ten10-datasheet.pdf
 DCDC-Converter TRACO TEN10-xxxx single output
@@ -55537,6 +55544,55 @@ solder jumper open
 0
 5
 3
+Keyswitch
+Kailh-CPG1232
+
+
+0
+2
+2
+Keyswitch
+Kailh-CPG1280
+
+
+0
+2
+2
+Keyswitch
+Kailh-CPG1350
+
+
+0
+2
+2
+Keyswitch
+Kailh-CPG1425
+
+
+0
+2
+2
+Keyswitch
+Kailh-CPG1511
+Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
+Cherry MX keyswitch 1.00u PCB
+0
+2
+2
+Keyswitch
+Kailh-CPG151101S11_MX_Socket-1.00u
+MX_PCB
+MX_PCB
+0
+4
+2
+Keyswitch
+Matias-KS101
+
+
+0
+2
+2
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -84350,12 +84406,75 @@ varistor SIOV
 2
 2
 blackwing
+CUTOUT_CHERRY_MX
+
+
+0
+0
+0
+blackwing
+CUTOUT_CHERRY_MX_1.00u
+
+
+0
+0
+0
+blackwing
+CUTOUT_CHERRY_MX_1.25u
+
+
+0
+0
+0
+blackwing
+CUTOUT_CHERRY_MX_1.50u
+
+
+0
+0
+0
+blackwing
+CUTOUT_CHERRY_MX_2.00u
+
+
+0
+0
+0
+blackwing
+CUTOUT_CHERRY_MX_2.00u_Vertical
+
+
+0
+0
+0
+blackwing
+CUTOUT_CHERRY_MX_6.25u
+Cherry MX keyswitch, 6.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
+Cherry MX keyswitch 6.25u PCB
+0
+0
+0
+blackwing
 Core51822
 
 
 0
 36
 36
+blackwing
+D_0805_2012Metric
+Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+diode
+0
+2
+2
+blackwing
+D_SOD-323
+SOD-323
+SOD-323
+0
+2
+2
 blackwing
 HOLYIOT-18010-NRF52840
 
@@ -84377,6 +84496,20 @@ AAA battery cell holder
 0
 2
 2
+blackwing
+LED-APA102-2020
+http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
+LED RGB SPI
+0
+8
+6
+blackwing
+LED-WS2812B-2020
+http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
+LED RGB SPI
+0
+4
+4
 blackwing
 MX_FLIP
 
@@ -84420,9 +84553,51 @@ Through hole pin header THT 1x04 2.54mm single row
 4
 4
 blackwing
-Top_Cover
-
-
+SW_Cherry_MX_1.00u_PCB
+Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
+Cherry MX keyswitch 1.00u PCB
 0
+2
+2
+blackwing
+SW_Cherry_MX_1.25u_PCB
+Cherry MX keyswitch, 1.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
+Cherry MX keyswitch 1.25u PCB
 0
+2
+2
+blackwing
+SW_Cherry_MX_1.50u_PCB
+Cherry MX keyswitch, 1.50u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
+Cherry MX keyswitch 1.50u PCB
 0
+2
+2
+blackwing
+SW_Cherry_MX_1.75u_PCB
+Cherry MX keyswitch, 2.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
+Cherry MX keyswitch 2.00u PCB
+0
+2
+2
+blackwing
+SW_Cherry_MX_2.00u_PCB
+Cherry MX keyswitch, 2.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
+Cherry MX keyswitch 2.00u PCB
+0
+2
+2
+blackwing
+SW_Cherry_MX_2.00u_Vertical_PCB
+Cherry MX keyswitch, 2.00u, vertical, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
+Cherry MX keyswitch 2.00u vertical PCB
+0
+2
+2
+blackwing
+SW_Cherry_MX_6.25u_PCB
+Cherry MX keyswitch, 6.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
+Cherry MX keyswitch 6.25u PCB
+0
+2
+2

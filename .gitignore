@@ -19,3 +19,7 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+
+blackwing-backups
+gerber
+gerber.zip
