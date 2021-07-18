@@ -20,6 +20,6 @@ _autosave-*
 *.xml
 *.csv
 
-blackwing-backups
+*-backups
 gerber
 gerber.zip

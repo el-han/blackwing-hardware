@@ -2251,9 +2251,9 @@
     (fp_line (start 1.4 0.9) (end 1.4 -0.9) (layer "B.Fab") (width 0.1) (tstamp c777f770-26bf-4a90-bbd0-5a74d63a81bb))
     (fp_line (start -0.75 0) (end -0.35 0) (layer "B.Fab") (width 0.1) (tstamp f65ce924-f814-409f-be66-7978cc083169))
     (pad "1" smd rect locked (at -1.65 0 270) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 2 "VCC") (pinfunction "K") (tstamp 0f9f23b1-0384-4340-9905-f74c39dfb82b))
+      (net 2 "VCC") (pinfunction "K") (pintype "passive") (tstamp 0f9f23b1-0384-4340-9905-f74c39dfb82b))
     (pad "2" smd rect locked (at 1.65 0 270) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 57 "Net-(BT1-Pad1)") (pinfunction "A") (tstamp a17e411b-f141-4f50-b830-e41f6afd5648))
+      (net 57 "Net-(BT1-Pad1)") (pinfunction "A") (pintype "passive") (tstamp a17e411b-f141-4f50-b830-e41f6afd5648))
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
