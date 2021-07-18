@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name "blackwing")(type "KiCad")(uri "$(KIPRJMOD)/blackwing.pretty")(options "")(descr ""))
+  (lib (name "blackwing")(type "KiCad")(uri "../blackwing.pretty")(options "")(descr ""))
   (lib (name "Battery")(type "KiCad")(uri "/usr/share/kicad-nightly/modules/Battery.pretty")(options "")(descr ""))
 )
