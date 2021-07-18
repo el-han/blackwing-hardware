@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name "blackwing")(type "KiCad")(uri "${KIPRJMOD}/blackwing.kicad_sym")(options "")(descr ""))
+  (lib (name "blackwing")(type "KiCad")(uri "${KIPRJMOD}/../blackwing.kicad_sym")(options "")(descr ""))
 )
