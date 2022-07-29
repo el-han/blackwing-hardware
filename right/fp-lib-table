@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "blackwing")(type "KiCad")(uri "${KIPRJMOD}/../blackwing.pretty")(options "")(descr ""))
+)
